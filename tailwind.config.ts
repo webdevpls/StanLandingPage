@@ -7,12 +7,16 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundImage: {
+      'img_bg': "url('../assets/bghero.jpg')",
+    }, 
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        'primary-orange': '#2BB673',
+        'second-orange': '#22332B',
+        'green-one': '#1A6440',
+        'green-two': '#2BB673',
+      }
     },
   },
   plugins: [],
