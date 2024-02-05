@@ -84,7 +84,7 @@ humana, para tirar qualquer tipo de dúvida.</h2>
         <div className="max-w-[1110px] flex mx-auto mt-28">
             <div className="flex flex-col gap-5">
                 <h1 className="font-bold text-[69px] leading-[87px] w-[498px] text-green-one">Serviços de <span className="text-green-two">qualidade</span> e de <span className="text-green-two">confiança!</span></h1>
-                <p className="w-[500px] text-green-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="w-[500px] text-green-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
                 <div>
             <button className="text-white bg-green-one px-[50px] py-3 rounded-md hover:bg-green-500">
                     Quero ser Stan
