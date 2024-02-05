@@ -7,7 +7,7 @@ export function Header(){
 
         
 
-<nav className="fixed bg-second-orange w-full flex-1 border-b-[1px] border-primary-orange">
+<nav className="fixed bg-second-orange w-full flex-1 border-b-[1px] border-primary-orange z-50">
   <div className="max-w-screen-xl flex items-center justify-between mx-auto h-24 w-full">
   <a href="" className="flex items-center space-x-3 ">
       

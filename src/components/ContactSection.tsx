@@ -6,6 +6,9 @@ import emailjs from "@emailjs/browser"
 
 import icon1 from "../assets/icon1.png"
 import icon2 from "../assets/icon2.png"
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react"
 
 export function ContactSection () {
@@ -13,6 +16,20 @@ export function ContactSection () {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+
+    const notify = () => {
+        toast.success('Enviado com sucesso', {
+            position: "bottom-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+            });
+    }
 
 
     function sendEmail(e: React.FormEvent<HTMLFormElement>){
@@ -30,10 +47,12 @@ export function ContactSection () {
             message: message,
             email: email
         }
+        
 
         emailjs.send("service_fldu0vk", "template_zgrm7m3", templateParms, "yDDyrkrsu2IAfMH5E" )
+        
         .then((response) => {
-            alert("Email Enviado!")
+            
             setName('')
             setEmail('')
             setMessage('')
@@ -46,8 +65,11 @@ export function ContactSection () {
         
         )
         
+        
 
     }
+
+    const botaoDesabilitado = !name || !email || !message;
 
     return (
 
@@ -119,7 +141,15 @@ export function ContactSection () {
 
                     </div>
 
-                    <input className="text-white bg-primary-orange px-[50px] w-full py-3 rounded-md hover:bg-green-500 cursor-pointer" value="Enviar" type="submit"/>
+                    <input className="text-white bg-primary-orange px-[50px] w-full py-3 rounded-md hover:bg-green-500 cursor-pointer"
+                     value="Enviar" 
+                     type="submit"
+                     onClick={notify}
+                     disabled={botaoDesabilitado}
+                     />
+                     <ToastContainer/>
+
+                     
                     
                     
 
