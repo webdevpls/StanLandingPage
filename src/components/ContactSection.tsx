@@ -33,7 +33,7 @@ export function ContactSection () {
 
         emailjs.send("service_fldu0vk", "template_zgrm7m3", templateParms, "yDDyrkrsu2IAfMH5E" )
         .then((response) => {
-            console.log("Email enviado", response.status, response.text)
+            alert("Email Enviado!")
             setName('')
             setEmail('')
             setMessage('')
