@@ -15,7 +15,7 @@ export function ContactSection () {
     const [message, setMessage] = useState('')
 
 
-    function sendEmail(e){
+    function sendEmail(e: React.FormEvent<HTMLFormElement>){
 
         e.preventDefault();
 
