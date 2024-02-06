@@ -11,7 +11,7 @@ import  robot  from "../assets/robot.png"
 
 export function AboutService(){
     return(
-        <section id="service" className="h-[900px] mt-56">
+        <section id="service" className="h-[900px] mt-14 xl:h-[300px] 2xl:mt-52">
 
 
         <div className="flex flex-col items-center justify-center">
@@ -20,8 +20,8 @@ export function AboutService(){
                 <div className="h-1 w-28 bg-second-orange rounded-full "/>
             </div>
 
-            <div className="grid grid-cols-2 gap-y-11 gap-x-6 w-[1110px] cursor-default">
-                <div className="bg-green-one flex items-center justify-between p-5 rounded-md hover:bg-green-two transition ease-in-out duration-75">
+            <div className="grid grid-cols-1 gap-y-1 gap-x-6 w-[300px] cursor-default xl:grid-cols-2 xl:w-[1110px]">
+                <div className="bg-green-one flex items-center justify-between p-3 rounded-md hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                     <div className="flex flex-col gap-1">
                     <p className="font-bold text-white text-[18px]">Pedidos automatizados</p>
                     <h2 className="font-thin text text-white max-w-72">Pedidos feitos pelo nosso robô para facilitar seus pedidos.</h2>
@@ -31,11 +31,11 @@ export function AboutService(){
                         <Image
                         src={iconcard1}
                         alt="Icon card 1"
-                        className="w-12 h-12"
+                        className="sm:w-8 sm:h-8  xl:w-12 xl:h-12"
                         />
                 </div>
                 </div>
-                <div className="bg-green-one flex items-center justify-between p-5 rounded-md  hover:bg-green-two transition ease-in-out duration-75">
+                <div className="bg-green-one flex items-center justify-between p-3 rounded-md  hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                 <div className="flex flex-col gap-1">
                     <p className="font-bold text-white text-[18px]">Atendimento Humano</p>
                     <h2 className="font-thin text text-white max-w-[370px]">Pedidos feitos pela equipe de atendimento
@@ -46,11 +46,11 @@ humana, para tirar qualquer tipo de dúvida.</h2>
                         <Image
                         src={iconcard2}
                         alt="Icon card 2"
-                        className="w-12 h-12"
+                        className="sm:w-8 sm:h-8  xl:w-12 xl:h-12"
                         />
                 </div>
                 </div>
-                <div className="bg-green-one flex items-center justify-between p-5 rounded-md hover:bg-green-two transition ease-in-out duration-75">
+                <div className="bg-green-one flex items-center justify-between p-3 rounded-md hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                 <div className="flex flex-col gap-1">
                     <p className="font-bold text-white text-[18px]">Pedidos automatizados</p>
                     <h2 className="font-thin text text-white max-w-72">Pedidos feitos pelo nosso robô para facilitar seus pedidos.</h2>
@@ -60,11 +60,11 @@ humana, para tirar qualquer tipo de dúvida.</h2>
                         <Image
                         src={iconcard3}
                         alt="Icon card 1"
-                        className="w-12 h-12"
+                        className="sm:w-8 sm:h-8  xl:w-12 xl:h-12"
                         />
                 </div>
                 </div>
-                <div className="bg-green-one flex items-center justify-between p-5 rounded-md   hover:bg-green-two transition ease-in-out duration-75">
+                <div className="bg-green-one flex items-center justify-between p-3 rounded-md   hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                 <div className="flex flex-col gap-1">
                     <p className="font-bold text-white text-[18px]">Pedidos automatizados</p>
                     <h2 className="font-thin text text-white max-w-72">Pedidos feitos pelo nosso robô para facilitar seus pedidos.</h2>
@@ -74,17 +74,17 @@ humana, para tirar qualquer tipo de dúvida.</h2>
                         <Image
                         src={iconcard4}
                         alt="Icon card 1"
-                        className="w-12 h-12"
+                        className="sm:w-8 sm:h-8  xl:w-12 xl:h-12"
                         />
                 </div>
                 </div>
             </div>
         </div>
 
-        <div className="max-w-[1110px] flex mx-auto mt-28">
-            <div className="flex flex-col gap-5">
-                <h1 className="font-bold text-[69px] leading-[87px] w-[498px] text-green-one">Serviços de <span className="text-green-two">qualidade</span> e de <span className="text-green-two">confiança!</span></h1>
-                <p className="w-[500px] text-green-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
+        <div className="flex flex-col mt-20">
+            <div className="flex flex-col items-center justify-center gap-5">
+            <h1 className="text-green-one font-bold text-[49px]  text-center leading-tight xl:w-[900px]"><span className="text-primary-orange">Serviços</span> de qualidade e muita <span className="text-primary-orange">segurança</span></h1>
+                <p className="w-[300px] text-center text-green-one xl:w-[800px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
                 <div>
             <button className="text-white bg-green-one px-[50px] py-3 rounded-md hover:bg-green-500">
                     Quero ser Stan
@@ -93,13 +93,7 @@ humana, para tirar qualquer tipo de dúvida.</h2>
             </div>
 
             
-            <div className="ml-24 w-[564] h-[564px]">
-                <Image
-                
-                src={robot}
-                alt="Robo"
-                />
-            </div>
+        
         </div>
 
         

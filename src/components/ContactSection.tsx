@@ -20,13 +20,13 @@ export function ContactSection () {
     const notify = () => {
         toast.success('Enviado com sucesso', {
             position: "bottom-center",
-            autoClose: 5000,
-            hideProgressBar: false,
+            autoClose: 500,
+            hideProgressBar: true,
             closeOnClick: true,
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "light",
+            theme: "colored",
             transition: Bounce,
             });
     }
@@ -73,18 +73,18 @@ export function ContactSection () {
 
     return (
 
-        <section id="contact" className="bg-green-three h-[1300px] flex flex-col items-center justify-center">
+        <section id="contact" className="bg-green-three h-[1300px] flex flex-col items-center justify-center pt-10">
            
 
            <div className="flex flex-col items-center justify-center gap-8">
 
             <span className="text-white font-medium">Fale conosco! ✅</span>
-                <h1 className="text-white font-bold text-7xl max-w-[1110px] text-center leading-tight">Entre em <span className="text-green-two">contato</span> e tire todas suas <span className="text-green-two">duvidas!</span></h1>
-                <p className="text-white text-center max-w-[754px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
+                <h1 className="text-white font-bold text-[55px] max-w-[1110px] sm:max-w-[400px] md:max-w-[800px] text-center leading-tight xl:text-[69px] xl:max-w-[1100px]">Entre em <span className="text-green-two">contato</span> e tire todas suas <span className="text-green-two">duvidas!</span></h1>
+                <p className="text-white text-center max-w-[600px] xl:max-w-[1100px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
                 </p>
             </div>
 
-            <div className="bg-second-orange mt-16 w-[800px] p-9 flex flex-col items-center justify-center -4 rounded-lg" >
+            <div className="bg-second-orange mt-16 w-[400px] md:w-[600px] p-9 flex flex-col items-center justify-center -4 rounded-lg" >
                     <div className="flex flex-col items-center">
                         <h1 className="font-bold text-[40px] text-white">Fale conosco!</h1>
                         <span className="text-primary-orange">Estamos sempre dispostos a te ajudar!</span>
@@ -98,7 +98,7 @@ export function ContactSection () {
                         src={icon1}
                         alt="icon 1"
                         />
-                        <input className="bg-white px-14 py-2 w-[500px] rounded-md border border-green-one focus:border-green-two focus:outline-none" 
+                        <input className="bg-white px-12 py-2 w-[350px] rounded-md border border-green-one focus:border-green-two focus:outline-none 2xl:w-[500px]" 
                         
                         type="text" 
                         placeholder="Seu nome" 
@@ -114,7 +114,7 @@ export function ContactSection () {
                         src={icon2}
                         alt="icon 2"
                         />
-                        <input className="bg-white px-14 py-2 w-[500px] rounded-md border border-green-one focus:border-green-two focus:outline-none" 
+                        <input className="bg-white px-12 py-2 w-[350px] rounded-md border border-green-one focus:border-green-two focus:outline-none 2xl:w-[500px]" 
                         
                         type="email" 
                         placeholder="Seu email" 
@@ -129,7 +129,7 @@ export function ContactSection () {
                         src={icon2}
                         alt="icon 1"
                         />
-                        <textarea className="bg-white px-14 py-2 w-[500px] rounded-md border border-green-one focus:border-green-two focus:outline-none resize-none" 
+                        <textarea className="bg-white px-12 py-2 w-[350px] rounded-md border border-green-one focus:border-green-two focus:outline-none resize-none text-sm 2xl:w-[500px]" 
                         
                         placeholder="Digite sua mensagem"
                         rows={13}

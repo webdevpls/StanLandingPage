@@ -6,7 +6,7 @@ export function Footer(){
     return(
 
         <div className="pb-14">
-    <footer className="flex flex-row justify-evenly mt-12">
+    <footer className="flex flex-row justify-evenly pt-4">
 
         <div className="flex items-center justify-between w-full md:w-auto md:order-1" id="navbar-sticky">
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-normal md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">

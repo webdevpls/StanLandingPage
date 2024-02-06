@@ -9,21 +9,21 @@ import  iconcard4  from "../assets/iconcard4.png"
 
 export function AboutUs(){
     return(
-        <section id="about" className=" h-[832px] mt-28 bg-second-orange bg-img_bg bg-no-repeat bg-center  bg-cover cursor-default">
+        <section id="about" className=" h-[832px] mt-[500px] bg-second-orange bg-img_bg bg-no-repeat bg-center  bg-cover cursor-default 2xl:h-[732px]">
 
 
-            <div className="flex flex-col items-center justify-center pt-36 gap-8">
+            <div className="flex flex-col items-center justify-center pt-28 gap-8">
 
             <span className="text-white font-medium">Quem somos? ✅</span>
-                <h1 className="text-white font-bold text-7xl max-w-[1110px] text-center leading-tight"> Somos quem <span className="text-green-two">automatiza</span> todos os seus <span className="text-green-two">pedidos!</span></h1>
-                <p className="text-white text-center max-w-[754px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                <h1 className="text-white font-bold text-[50px] max-w-[1110px] md:max-w-[800px] text-center leading-tight xl:text-[69px] xl:max-w-[1110px]"> Somos quem <span className="text-green-two">automatiza</span> todos os seus <span className="text-green-two">pedidos!</span></h1>
+                <p className="text-white text-center max-w-[400px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
             </div>
 
             <div className="flex flex-col items-center justify-center">
             
 
-            <div className="grid grid-cols-2 gap-y-11 gap-x-6 w-[1110px] cursor-default mt-20">
+            <div className="grid grid-cols-1 gap-y-11 gap-x-6 w-[370px] cursor-default mt-20 xl:grid-cols-2 xl:w-[1110px]">
                 <div className="bg-green-one flex items-center h-20 justify-center gap-5 p-5 rounded-md hover:bg-green-two transition ease-in-out duration-75">
                     
                 <div className="">
