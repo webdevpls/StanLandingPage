@@ -16,7 +16,7 @@ export function AboutUs(){
 
             <span className="text-white font-medium">Quem somos? ✅</span>
                 <h1 className="text-white font-bold text-[50px] max-w-[1110px] md:max-w-[800px] text-center leading-tight xl:text-[69px] xl:max-w-[1110px]"> Somos quem <span className="text-green-two">automatiza</span> todos os seus <span className="text-green-two">pedidos!</span></h1>
-                <p className="text-white text-center max-w-[400px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <p className="text-white text-center max-w-[600px] font-light">Simplificamos o processo de pedidos com nossa tecnologia avançada, garantindo eficiência e rapidez em todas as transações.
                 </p>
             </div>
 

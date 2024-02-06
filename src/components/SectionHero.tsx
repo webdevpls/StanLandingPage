@@ -15,7 +15,7 @@ export function SectioHero(){
             <div className=" w-[1110px] flex flex-col items-center justify-center mt-[600px] gap-8 2xl:mt-[800px]">
                 <span className="text-white font-medium">Agilidade é nosso codinome! ✅</span>
                 <h1 className="text-white font-bold text-[49px]  text-center leading-tight 2xl:text-[69px]"><span className="text-primary-orange">Automatize</span> sua operação em alguns <span className="text-primary-orange">minutos!</span></h1>
-                <p className="text-white text-center max-w-[900px] sm:max-w-[400px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <p className="text-white text-center max-w-[900px] sm:max-w-[400px] font-light">Transforme a eficiência do seu negócio com nossa solução simplificada e rápida.
                 </p>
                 <button className="text-white bg-primary-orange px-[50px] py-3 rounded-md hover:bg-green-500">
                     Quero ser Stan

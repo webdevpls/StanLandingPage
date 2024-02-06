@@ -6,6 +6,8 @@ import  iconcard1  from "../assets/iconcard1.jpg"
 import  iconcard2  from "../assets/iconcard2.png"
 import  iconcard3  from "../assets/iconcard3.png"
 import  iconcard4  from "../assets/iconcard4.png"
+import  iconcard5  from "../assets/iconcard5.png"
+import  iconcard6 from "../assets/iconcard6.png"
 
 import  robot  from "../assets/robot.png"
 
@@ -52,7 +54,7 @@ humana, para tirar qualquer tipo de dúvida.</h2>
                 </div>
                 <div className="bg-green-one flex items-center justify-between p-3 rounded-md hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                 <div className="flex flex-col gap-1">
-                    <p className="font-bold text-white text-[18px]">Pedidos automatizados</p>
+                    <p className="font-bold text-white text-[18px]">Pedidos organizados</p>
                     <h2 className="font-thin text text-white max-w-72">Pedidos feitos pelo nosso robô para facilitar seus pedidos.</h2>
                     </div>
 
@@ -66,13 +68,13 @@ humana, para tirar qualquer tipo de dúvida.</h2>
                 </div>
                 <div className="bg-green-one flex items-center justify-between p-3 rounded-md   hover:bg-green-two transition ease-in-out duration-75 xl:p-4">
                 <div className="flex flex-col gap-1">
-                    <p className="font-bold text-white text-[18px]">Pedidos automatizados</p>
+                    <p className="font-bold text-white text-[18px]">Integração com o WhatsApp</p>
                     <h2 className="font-thin text text-white max-w-72">Pedidos feitos pelo nosso robô para facilitar seus pedidos.</h2>
                     </div>
 
                     <div className="ml-4">
                         <Image
-                        src={iconcard4}
+                        src={iconcard6}
                         alt="Icon card 1"
                         className="sm:w-8 sm:h-8  xl:w-12 xl:h-12"
                         />
@@ -84,7 +86,7 @@ humana, para tirar qualquer tipo de dúvida.</h2>
         <div className="flex flex-col mt-20">
             <div className="flex flex-col items-center justify-center gap-5">
             <h1 className="text-green-one font-bold text-[49px]  text-center leading-tight xl:w-[900px]"><span className="text-primary-orange">Serviços</span> de qualidade e muita <span className="text-primary-orange">segurança</span></h1>
-                <p className="w-[300px] text-center text-green-one xl:w-[800px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
+                <p className="w-[300px] text-center text-green-one xl:w-[800px]">Garantimos tranquilidade e excelência em cada etapa do processo, protegendo seus dados com as mais avançadas medidas de segurança.</p>
                 <div>
             <button className="text-white bg-green-one px-[50px] py-3 rounded-md hover:bg-green-500">
                     Quero ser Stan

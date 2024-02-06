@@ -80,7 +80,7 @@ export function ContactSection () {
 
             <span className="text-white font-medium">Fale conosco! ✅</span>
                 <h1 className="text-white font-bold text-[55px] max-w-[1110px] sm:max-w-[400px] md:max-w-[800px] text-center leading-tight xl:text-[69px] xl:max-w-[1100px]">Entre em <span className="text-green-two">contato</span> e tire todas suas <span className="text-green-two">duvidas!</span></h1>
-                <p className="text-white text-center max-w-[600px] xl:max-w-[1100px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
+                <p className="text-white text-center max-w-[600px] xl:max-w-[1100px] font-light">Dúvidas? Não hesite em nos contatar! Estamos prontos para ajudar e esclarecer tudo o que você precisa saber.
                 </p>
             </div>
 
