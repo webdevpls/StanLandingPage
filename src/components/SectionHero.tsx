@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Container } from "./Container";
 
-import Msg from '@/assets/msg.jpg'
+import Msg from '@/assets/msg1.svg'
 import Box1 from '@/assets/Box.jpg'
 
 
